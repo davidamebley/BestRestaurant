@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+
+
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/linear">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:src="@drawable/cr1"
+                            android:scaleType="centerCrop"
+                            android:layout_marginBottom="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="top"
+                            android:padding="16dp">
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_above="@+id/pay">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView
+                                android:layout_weight="1"
+                                android:id="@+id/checkin"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check  in"
+                                android:textColor="@color/text"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="left"/>
+
+                            <customfonts.MyTextView
+                                android:layout_weight="0.5"
+                                android:id="@+id/checkintime"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Monday 10 March, 2:00 PM"
+                                android:textColor="@color/subtext"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="right"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/devider"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView
+                                android:layout_weight="1"
+                                android:id="@+id/checkout"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check  out"
+                                android:textColor="@color/text"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="left"/>
+
+                            <customfonts.MyTextView
+                                android:layout_weight="0.6"
+                                android:id="@+id/checkouttime"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Friday 19 March, 11:00 AM"
+                                android:textColor="#000"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="right"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/linear">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:src="@drawable/cr2"
+                            android:scaleType="centerCrop"
+                            android:layout_marginBottom="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="top"
+                            android:padding="16dp">
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_above="@+id/pay">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView
+                                android:layout_weight="1"
+                                android:id="@+id/checkin1"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check  in"
+                                android:textColor="@color/text"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="left"/>
+
+
+                            <customfonts.MyTextView
+                                android:layout_weight="0.5"
+                                android:id="@+id/checkintime2"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Monday 10 March, 2:00 PM"
+                                android:textColor="@color/subtext"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="right"/>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/devider"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView
+                                android:layout_weight="1"
+                                android:id="@+id/checkout2"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check  out"
+                                android:textColor="@color/text"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="left"/>
+
+                            <customfonts.MyTextView
+                                android:layout_weight="0.6"
+                                android:id="@+id/checkouttime1"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Friday 19 March, 11:00 AM"
+                                android:textColor="#000"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="right"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/linear">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:src="@drawable/cr4"
+                            android:scaleType="centerCrop"
+                            android:layout_marginBottom="5dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:gravity="top"
+                            android:padding="16dp">
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_above="@+id/pay">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView
+                                android:layout_weight="1"
+                                android:id="@+id/checkin3"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check  in"
+                                android:textColor="@color/text"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="left"/>
+
+
+                            <customfonts.MyTextView
+                                android:layout_weight="0.5"
+                                android:id="@+id/checkintime3"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Monday 10 March, 2:00 PM"
+                                android:textColor="@color/subtext"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="right"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/devider"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView
+                                android:layout_weight="1"
+                                android:id="@+id/checkout3"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check  out"
+                                android:textColor="@color/text"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="left"/>
+
+                            <customfonts.MyTextView
+                                android:layout_weight="0.6"
+                                android:id="@+id/checkouttime3"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Friday 19 March, 11:00 AM"
+                                android:textColor="#000"
+                                android:background="#0000"
+                                android:padding="16dp"
+                                android:gravity="right"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

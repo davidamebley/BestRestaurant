@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Best Restaurant</string>
+    <string name="slogan">No. 1 in the City</string>
+    <string name="btn_signin_text">Sign in</string>
+    <string name="btn_aboutus_text">About Us</string>
+    <string name="btn_logout_text">Log Out</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
